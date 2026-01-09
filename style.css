@@ -181,10 +181,30 @@ header .nav-container{
 .footer-container{
     background-color: #001931;
     height: 348px;
-    
 }
 
 .footer-container p{
     text-align: center;
     color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.footer-container hr{
+    width: 1380px;
+    margin: 0px auto;
+}
+
+.footer-contents{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer-contents .footer-content{
+    width: 1380px;
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
 }
