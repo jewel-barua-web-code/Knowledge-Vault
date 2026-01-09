@@ -55,9 +55,35 @@ header .nav-container{
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     height: 674px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.early-access-btn{
+    color: #30B868;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
 }
 
+.hero-container .hero-content h1{
+    font-size: 60px;
+}
+.hero-container .hero-content p{
+    max-width: 1360px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
 
+.hero-container .hero-buttons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
 
 .notes-section{
     max-width: 1360px;
