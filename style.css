@@ -29,6 +29,13 @@ header .nav-container{
     align-items: center;
 }
 
+.heading-first{
+    color: #FFFFFF;
+}
+
+.heading-second{
+    color: #30B868;
+}
 .nav-item{
     display: flex;
     gap: 32px;
@@ -40,4 +47,99 @@ header .nav-container{
 .nav-item li a {
     text-decoration: none;
     color: #001931;
+}
+
+/* Hero Section */
+
+.hero-container{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    height: 674px;
+}
+
+
+
+.notes-section{
+    max-width: 1360px;
+    margin: 44px 0 auto;
+    text-align: center;
+}
+
+.single-note h4{
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.notes-section h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.notes-section p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Notes Container Section */
+.notes-container{
+    margin-top: 44px;
+}
+.all-notes{
+    display: flex;
+    width: 91%;
+    margin: 16px auto;
+    gap: 24px;
+}
+
+.all-notes .single-note{
+    text-align: center;
+    border-radius: 10px;
+    padding: 48px;
+    box-shadow: 0px 5px 5px 0px #efeeee;
+}
+
+/* Brain Container */
+
+.brain-container{
+    display: flex;
+}
+
+/* Early Access */
+
+.early-access{
+    background-color: #F7F6F2;
+    width: 1280px;
+    margin: 120px auto;
+}
+
+.early-access .early-container{
+    text-align: center;
+    padding: 80px;
+}
+
+.early-access .early-container h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.early-access .early-container p{
+    font-size: 16px;
+    color: #627382;
+}
+
+.early-access .early-container button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+/* Footer Section */
+
+.footer-container{
+    background-color: #001931;
+    height: 348px;
+    
+}
+
+.footer-container p{
+    text-align: center;
+    color: #FFFFFF;
 }
