@@ -95,13 +95,32 @@ header .nav-container{
     text-align: center;
     border-radius: 10px;
     padding: 48px;
-    box-shadow: 0px 5px 5px 0px #efeeee;
+    box-shadow: 0px 10px 10px 0px #efeeee;
 }
 
 /* Brain Container */
 
 .brain-container{
     display: flex;
+    width: 1280px;
+    margin: 130px auto;
+    gap: 60px;
+}
+
+.brain-container .solution-content h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.brain-container .solution-content p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.brain-container .solution-content{
+    margin-top: 70px;
 }
 
 /* Early Access */
